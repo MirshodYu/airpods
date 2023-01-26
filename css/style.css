@@ -1,0 +1,282 @@
+@import url(fonts.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat-Bold";
+}
+body {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.nav {
+  background: #282828;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.nav__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.nav__list {
+  display: flex;
+  column-gap: 30px;
+  padding: 20px 0 21px;
+  text-decoration: none;
+}
+
+.nav__item {
+  font-size: 20px;
+  line-height: 24px;
+  list-style: none;
+  color: #ffffff;
+}
+
+.icons {
+  display: flex;
+  column-gap: 25px;
+  padding: 22px 0 23px;
+}
+
+.header {
+  background: url(../img/Header.png) no-repeat center/cover;
+
+  width: 100%;
+  height: 100vh;
+}
+
+.header__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 269px;
+  flex-direction: column;
+}
+
+.header__title {
+  font-size: 100px;
+  line-height: 75px;
+  color: #ffffff;
+}
+
+.div {
+  background: #ffffff;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  font-family: "Montserrat-Medium";
+  display: flex;
+  justify-content: center;
+  column-gap: 11px;
+  padding: 13px 14px;
+  margin-top: 51px;
+}
+
+.div__title {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Medium";
+  color: #171718;
+}
+
+.main {
+  background: #171718;
+}
+
+.section__content {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+}
+
+.about__content-left {
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  font-family: "Montserrat-Medium";
+  padding-top: 130px;
+  width: 538px;
+  height: 135px;
+}
+
+.section__subtitle {
+  font-family: "Montserrat-Medium";
+  font-size: 22px;
+  line-height: 27px;
+}
+
+.about__content-right {
+  padding-top: 30px;
+}
+
+.section2__content {
+  display: flex;
+  column-gap: 87px;
+}
+
+.section2__img {
+  padding-top: 150px;
+  width: 457px;
+  height: 568px;
+}
+
+.right {
+  padding-top: 301px;
+  width: 540px;
+  height: 107px;
+}
+
+.right__subtitle {
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  font-family: "Montserrat-Medium";
+}
+
+.section3__content {
+  display: flex;
+  padding-top: 70px;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.leftd {
+  text-align: right;
+  padding-top: 175px;
+  width: 1103px;
+  height: 120px;
+}
+
+.b,
+.a {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.a {
+  padding-top: 175px;
+}
+
+.rightd {
+  width: 1203px;
+  height: 144px;
+}
+
+.carts__content {
+  display: flex;
+  column-gap: 30px;
+  padding-top: 80px;
+  padding-bottom: 55px;
+}
+
+.cart {
+  width: 255px;
+  height: 312px;
+  background: #ffffff;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cart__title {
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding: 15px 59px 10px 58px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.carts__subtitle {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Montserrat-Regular";
+  padding: 10px 63px 20px 62px;
+}
+
+.carts__a {
+  border: 1px solid black;
+  background: #000;
+  width: 161px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  padding: 7px 57px;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  left: 47px;
+}
+
+.s {
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background: #282828;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.y {
+  padding: 81px 0;
+}
+
+.foot__list {
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+
+.foot__item {
+  list-style: none;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  column-gap: 30px;
+  transition: 0.5s;
+}
+
+.foot__item:hover {
+  transform: scale(1.2);
+}
+
+.footer__silka {
+  display: flex;
+  align-items: center;
+  column-gap: 29px;
+}
